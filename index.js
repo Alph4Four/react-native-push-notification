@@ -300,6 +300,10 @@ Notifications.cancelAllLocalNotifications = function() {
 	return this.callNative('cancelAllLocalNotifications', arguments);
 };
 
+Notifications.cancelAllLocalNotificationsNoClear = function() {
+	return this.callNative('cancelAllLocalNotificationsNoClear', arguments);
+};
+
 Notifications.setApplicationIconBadgeNumber = function() {
 	return this.callNative('setApplicationIconBadgeNumber', arguments);
 };
