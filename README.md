@@ -384,6 +384,7 @@ PushNotification.cancelLocalNotifications({id: '123'});
 Cancels all scheduled notifications AND clears the notifications alerts that are in the notification centre.
 
 _NOTE: there is currently no api for removing specific notification alerts from the notification centre._
+_NOTE: for canceling without clearing user cancelAllNotificationsNoClear()_
 
 ## Repeating Notifications
 
